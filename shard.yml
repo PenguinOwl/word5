@@ -1,0 +1,13 @@
+name: word5
+version: 0.1.0
+
+authors:
+  - Henry Boles <henryjboles@gmail.com>
+
+targets:
+  word5:
+    main: src/word5.cr
+
+crystal: 1.2.2
+
+license: MIT
