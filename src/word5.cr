@@ -105,7 +105,7 @@ loop do
       unless info_words.size == 0
         puts info_words.last
       else
-        if current_words.size > 1
+        if current_words.size > 2
           needed_letters = LETTERS - info
           best_word = words.max_by{|e| (e.chars.uniq & needed_letters).size}
           if (best_word.chars.uniq & needed_letters).size > 0
